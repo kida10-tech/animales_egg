@@ -14,10 +14,15 @@ public class Jirafa extends Animal {
     private int altura;
     private String sexo;
     private String especie;
+
+    public Jirafa() {
+    }
+    
+    
     
     @Override
     public String mostrar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return "hola, soy una jirafa";
     }
     
 }
