@@ -1687,9 +1687,13 @@ is divided into following sections:
     <target depends="init,compile-test-single,-init-test-run-module-properties,-debug-start-debugger-test,-debug-start-debuggee-test" name="debug-test"/>
     <target depends="init,compile-test-single,-init-test-run-module-properties,-debug-start-debugger-test,-debug-start-debuggee-test-method" name="debug-test-method"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <target depends="debug-test-method" name="debug-single-method"/>
 >>>>>>> Bruno
+=======
+    <target depends="debug-test-method" name="debug-single-method"/>
+>>>>>>> max
     <target depends="init,-pre-debug-fix,compile-test-single" if="netbeans.home" name="-do-debug-fix-test">
         <j2seproject1:nbjpdareload dir="${build.test.classes.dir}"/>
     </target>
