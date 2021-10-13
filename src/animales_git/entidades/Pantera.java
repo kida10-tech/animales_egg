@@ -58,7 +58,7 @@ public abstract class Pantera extends Animal {
 
     @Override
     public String toString() {
-        return "Pantera{" + "cola=" + cola + ", color=" + color + ", patas=" + patas + '}';
+        return "Pantera{" + "Cola=" + cola + ", Color=" + color + ", Patas=" + patas + '}';
     }
     
     
